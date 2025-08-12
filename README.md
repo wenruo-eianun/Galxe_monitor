@@ -3,7 +3,6 @@
 一個功能強大且高度可自訂的 Galxe 活動監控工具，旨在自動追蹤您喜愛的項目 (Space) 的最新活動 (Campaigns)，並透過 Telegram 和 Discord 即時推送通知。它還內建了一個美觀的網頁監控面板，讓您隨時掌握所有動態。
 
 ![專案截圖]([https://i.imgur.com/your-screenshot-url.png](https://servootc.iqq.pp.ua/2025/08/13/055665.webp))
-*(提示：請將此處的 URL 換成您自己截的網頁面板圖片 URL)*
 
 ---
 
@@ -81,13 +80,7 @@ nohup python3 monitor.py > monitor.log 2>&1 &
 
 打開您的瀏覽器，訪問 `http://<您的伺服器 IP>:5001`，即可看到您的個人化監控面板。
 
-## 🤝 貢獻
 
-歡迎提交 Pull Requests 或回報 Issues，讓我們一起讓這個工具變得更好！
-
-## 授權
-
-本專案採用 [MIT License](LICENSE) 授權。
 
 ---
 *由 eianun 強力驅動*
