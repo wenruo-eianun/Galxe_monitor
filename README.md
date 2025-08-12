@@ -70,7 +70,7 @@ python3 setup.py
 
 ### 4. 啟動監控服務
 
-我們建議使用 `nohup` 來讓腳本在背景永久運行。
+建議使用 `nohup` 來讓腳本在背景永久運行。
 
 ```bash
 nohup python3 monitor.py > monitor.log 2>&1 &
