@@ -81,6 +81,38 @@ nohup python3 monitor.py > monitor.log 2>&1 &
 打開您的瀏覽器，訪問 `http://<您的伺服器 IP>:5001`，即可看到您的個人化監控面板。
 
 
+## 第二种部署方式
+
+1. **上传到 VPS**
+
+   ```bash
+   mkdir galxe_monitor && cd galxe_monitor
+   nano setup.py
+   nano monitor.py
+   ```
+
+2. **安装依赖**
+
+   ```bash
+   echo "requests" > requirements.txt
+   pip3 install -r requirements.txt
+   ```
+
+3. **运行配置向导**
+
+   ```bash
+   python3 setup.py
+   ```
+
+4. **启动监控**
+
+   ```bash
+   nohup python3 monitor.py &
+   ```
+
+---
+
+
 
 ---
 *由 eianun 強力驅動*
