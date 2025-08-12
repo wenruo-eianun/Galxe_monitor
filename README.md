@@ -2,7 +2,7 @@
 
 一個功能強大且高度可自訂的 Galxe 活動監控工具，旨在自動追蹤您喜愛的項目 (Space) 的最新活動 (Campaigns)，並透過 Telegram 和 Discord 即時推送通知。它還內建了一個美觀的網頁監控面板，讓您隨時掌握所有動態。
 
-![專案截圖]([https://i.imgur.com/your-screenshot-url.png](https://servootc.iqq.pp.ua/2025/08/13/055665.webp))
+![專案截圖][https://i.imgur.com/your-screenshot-url.png](https://servootc.iqq.pp.ua/2025/08/13/055665.webp)
 
 ---
 
