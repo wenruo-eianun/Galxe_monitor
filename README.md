@@ -87,9 +87,8 @@ nohup python3 monitor.py > monitor.log 2>&1 &
 
    ```bash
    mkdir galxe_monitor && cd galxe_monitor
-   nano setup.py
-   nano monitor.py
    ```
+上传setup.py与monitor.py到galxe_monitor文件夹下
 
 2. **安装依赖**
 
@@ -97,6 +96,10 @@ nohup python3 monitor.py > monitor.log 2>&1 &
    echo "requests" > requirements.txt
    pip3 install -r requirements.txt
    ```
+
+```bash
+pip3 install requests flask
+```
 
 3. **运行配置向导**
 
