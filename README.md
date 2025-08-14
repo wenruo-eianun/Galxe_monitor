@@ -75,7 +75,22 @@ python3 setup.py
 ```bash
 nohup python3 monitor.py > monitor.log 2>&1 &
 ```
-
+停止操作 
+1.列出当前运行程序
+```bash
+ps aux | grep monitor.py
+```
+kill （id）
+杀掉目标ID程序
+2.重新加载启用
+设置参数
+```bash
+python3 setup.py
+```
+启动命令
+```bash
+nohup python3 monitor.py > monitor.log 2>&1 &
+```
 ### 5. 訪問監控面板
 
 打開您的瀏覽器，訪問 `http://<您的伺服器 IP>:5001`，即可看到您的個人化監控面板。
